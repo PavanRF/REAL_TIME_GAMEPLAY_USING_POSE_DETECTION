@@ -1,29 +1,30 @@
-# Playing Video Game Using Body Pose Detection
+# 🎮 REAL_TIME_GAMEPLAY_USING_POSE_DETECTION
 
-## About the Project
-The Playing Video Game Using Body Pose Detection project is a Python-based application that allows users to control a video game using their body movements. The system utilizes computer vision techniques to detect body poses and translate them into game controls. This innovative approach provides an immersive and interactive gaming experience.
+## 📘 About the Project
+The **REAL_TIME_GAMEPLAY_USING_POSE_DETECTION** project is a Python-based application that enables players to control a video game using their **body movements**. Using **computer vision** and **pose detection** technologies, it converts physical actions into in-game commands — creating a fun, immersive, and hands-free gaming experience.
 
-## Features
-- **Body Pose Detection:** Uses advanced computer vision algorithms to detect and track body poses in real-time.
-- **Game Control:** Translates body movements into game controls, allowing users to interact with the game using their body.
-- **Immersive Experience:** Provides a unique and engaging way to play video games without traditional controllers.
+## 🚀 Features
+- **Real-Time Pose Detection:** Detects and tracks body keypoints using advanced computer vision algorithms.  
+- **Motion-Based Controls:** Maps body gestures to specific game actions.  
+- **Interactive Gameplay:** Offers a new and engaging way to play games without traditional controllers.  
+- **Customizable Controls:** Easily modify pose mappings for different games or gestures.
 
-## How It Works
-1. **Camera Input:** The system captures video input from a camera to detect body poses.
-2. **Body Pose Detection:** The captured video frames are processed using pose detection algorithms to identify key body points.
-3. **Control Mapping:** The detected body poses are mapped to specific game controls.
-4. **Game Interaction:** The mapped controls are used to interact with and control the video game.
+## ⚙️ How It Works
+1. **Camera Input:** The system captures live video through a connected webcam.  
+2. **Pose Detection:** Each frame is analyzed to detect key body joints using pose estimation models.  
+3. **Control Mapping:** Recognized poses or gestures are translated into corresponding game commands.  
+4. **Gameplay:** These commands are used to control the game in real time through body movements.
 
-## Installation
-To set up the project locally, follow these steps:
+## 🧩 Installation
+Follow these steps to set up and run the project locally:
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/DhanushSM/playing_videogame_usingbodypose_detection.git
-    ```
+   ```bash
+   git clone https://github.com/PavanRF/REAL_TIME_GAMEPLAY_USING_POSE_DETECTION.git
+
 2. Navigate to the project directory:
     ```bash
-    cd playing_videogame_usingbodypose_detection
+    cd REAL_TIME_GAMEPLAY_USING_POSE_DETECTION
     ```
 3. Create and activate a virtual environment:
     ```bash
@@ -39,13 +40,19 @@ To set up the project locally, follow these steps:
     python main.py
     ```
 
-## Usage
-- Ensure your camera is connected and properly configured.
-- Run the application using the provided command.
-- Follow the on-screen instructions to calibrate the body pose detection system.
-- Start playing the video game using your body movements as controls.
+## 
+🎮 Usage
 
-## Contributing
+Ensure your webcam is connected and configured.
+
+Launch the application using the command above.
+
+Calibrate your position as instructed on-screen.
+
+Start playing and controlling the game through your body movements!
+
+
+## 🤝 Contributing
 Contributions are welcome! To contribute to this project, follow these steps:
 
 1. Fork the repository.
@@ -65,4 +72,8 @@ Contributions are welcome! To contribute to this project, follow these steps:
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
+📬 Contact
 
+Project Owner: Pavan Kumar
+
+Email: 99230040912@klu.ac.in
